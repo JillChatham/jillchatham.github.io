@@ -1,0 +1,38 @@
+body {
+
+background: #F7DCD0;
+width: 80%;
+margin: 0 auto;
+font-family: Helvetica, sans-serif;
+}	
+
+h1 {
+	color: black;
+}
+
+a, a:active, a:visited {
+        color: #FE631A;
+        text-decoration: none;
+    }
+a:focus, a:hover {
+        color: white;
+	}
+
+.nav {
+	background: #57505E;
+	padding: 10px;
+    color: #FE631A;
+    display: inline-block;
+    border-radius: 0px;
+    margin-right: 10px;
+}
+
+img {
+	width: 75%;
+}
+
+.blogtitle {
+	border: 2px solid #DB3606;
+	border-radius: 80%;
+	text-align: center;
+}
