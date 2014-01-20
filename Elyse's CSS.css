@@ -34,13 +34,14 @@ a:focus, a:hover {
         margin-top: 20px;
 }
 
-.nav a {
+.nav {
         background: #57b5d6;
         padding: 10px;
         color: #fff;
         display: inline-block;
         border-radius: 5px;
         margin-right: 10px;
+        border: solid, 2 px, black;
 }
 
 .nav a:hover {

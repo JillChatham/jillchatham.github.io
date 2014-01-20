@@ -1,38 +1,145 @@
 body {
 
-background: #F7DCD0;
+background: white;
 width: 80%;
 margin: 0 auto;
-font-family: Helvetica, sans-serif;
+font-family: Helvetica;
 }	
 
-h1 {
-	color: black;
+/*logo and navbar*/
+
+#jill {
+	height: 80px;
+	
 }
 
 a, a:active, a:visited {
-        color: #FE631A;
+        
         text-decoration: none;
-    }
-a:focus, a:hover {
-        color: white;
-	}
-
-.nav {
-	background: #57505E;
-	padding: 10px;
-    color: #FE631A;
-    display: inline-block;
-    border-radius: 0px;
-    margin-right: 10px;
 }
 
-img {
-	width: 75%;
+a {
+	color:#F2A885;
+	font-weight: bold;
+}
+
+a:focus, a:hover {
+        text-decoration: none;
+}
+
+.navbar {
+		/*border: 1px solid black;*/
+		display: inline-block;
+}
+
+.navbutton {
+	display: inline-block;
+	margin-top: 55px;
+}
+
+.navbutton a {
+		background: white;
+		height: 100%;
+		text-align: center;
+		padding: 10px;
+    	border-radius: 10px;
+    	margin-right: 10px;
+    	border: 2px solid black;
+	}
+
+.navbutton a:hover {
+	background: #F2A885;
+	color: white;
+}
+/*index.html*/
+
+.blogpreview {
+	margin-top: 30px;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 20px;
+	width: 60%;
+}
+
+.blogpreview p {
+	font-size: 1em;
+}
+
+.blogpreview a {
+	color: black;
+	font-weight: normal;
+}
+
+.blogpreview a:hover {
+	color: #F2A885;
+}
+
+/*about.html*/
+
+#cocinera {
+	width: 200px;
+	border-left: 2px solid black;
+	margin-top: 20px;
+	}
+
+h2 {
+	color: #F2A885;
+}
+
+.about {
+	width: 400px;
+}
+
+.education {
+		width: 100px;
+		height: 130px;
+		text-align: center;
+		padding: 5px;
+    	border-radius: 10px;
+    	margin-right: 20px;
+    	border: 2px solid black;
+    	font-weight: bold;
+    	font-size: 14px;
+    	display: inline-block;
+    	color: white;
+		background: #F2A885;
+		
+}
+
+.edicon {
+	height: 80px;
+}
+
+.edicon2 {
+	height: 100px;
+}
+
+.education:hover {
+	color: #F2A885;
+	background: white;
+}
+/*contact.html*/
+ul {
+	margin-top: 40px;
+}
+
+
+/*blog.html*/
+
+.blogentry {
+	margin-top: 40px;
 }
 
 .blogtitle {
-	border: 2px solid #DB3606;
+	border: 2px solid #F2A885;
 	border-radius: 80%;
 	text-align: center;
+	font-family: Courier;
+	width: 60%;
+	font-size: .8em;
+	margin-top: -5px;
+}
+
+.blogmeat {
+	width: 60%;
 }
