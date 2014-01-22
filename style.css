@@ -6,13 +6,8 @@ margin: 0 auto;
 font-family: Helvetica;
 }	
 
-/*logo and navbar*/
 
-#jill {
-	height: 80px;
-	
-}
-
+/*links*/
 a, a:active, a:visited {
         
         text-decoration: none;
@@ -27,10 +22,41 @@ a:focus, a:hover {
         text-decoration: none;
 }
 
-.navbar {
-		/*border: 1px solid black;*/
-		display: inline-block;
+
+/*header*/
+
+#jill {
+	height: 80px;
+	}
+
+.header {
+	/*border: 1px solid black;*/
+	width: 70%;
+	margin: 0 auto;
+	border-bottom: 4px solid #F2A885;
+	border-radius: 10px;
 }
+
+.header:after {
+	content: "";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.logo {
+	/*border: 1px solid black;*/
+	float: left;
+	width: 500px;
+	margin-top: 20px;
+}
+
+.nav {
+	/*border: 1px solid black;*/
+	float:right;
+}
+
 
 .navbutton {
 	display: inline-block;
@@ -51,6 +77,41 @@ a:focus, a:hover {
 	background: #F2A885;
 	color: white;
 }
+
+/*footer*/
+
+.footer {
+	clear:both;
+	border-top: 4px solid #F2A885;
+	width: 70%;
+	margin: 0 auto;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 10px;
+
+}
+
+.footerleft {
+	width: 30%;
+	float: left;
+	text-align: center;
+	border-right: 2px solid black;
+	padding-right: 10px;
+
+
+}
+
+.footerright {
+	width: 30%;
+	float: right;
+	text-align: center;
+	border-left: 2px solid black;
+	padding-left: 10px;
+}
+
 /*index.html*/
 
 .blogpreview {
@@ -75,19 +136,50 @@ a:focus, a:hover {
 }
 
 /*about.html*/
+.maincontent {
+	width: 70%;
+	margin: 0 auto;
+	padding: 30px;
+
+}
+
+.maincontent:after {
+	content: "";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.leftcontent {
+	float: left;
+	width: 20%;
+
+}
 
 #cocinera {
-	width: 200px;
-	border-left: 2px solid black;
-	margin-top: 20px;
-	}
+	
+	border-left: 4px solid black;
+	border-radius: 10px;
+}
 
 h2 {
 	color: #F2A885;
 }
 
-.about {
-	width: 400px;
+h3 {
+	color: #F2A885;
+}
+
+.rightcontenttop {
+	width: 70%;
+	float: right;
+	margin-top: 20px;
+}
+
+.edbuttonsgroup {
+	float: right;
+	width: 70%;
 }
 
 .education {
@@ -103,8 +195,8 @@ h2 {
     	display: inline-block;
     	color: white;
 		background: #F2A885;
-		
-}
+		}
+
 
 .edicon {
 	height: 80px;
@@ -127,19 +219,13 @@ ul {
 /*blog.html*/
 
 .blogentry {
-	margin-top: 40px;
+	margin: 0 auto;
+	width: 75%;
+	padding-top: 30px;
+
 }
 
 .blogtitle {
-	border: 2px solid #F2A885;
-	border-radius: 80%;
-	text-align: center;
 	font-family: Courier;
-	width: 60%;
 	font-size: .8em;
-	margin-top: -5px;
-}
-
-.blogmeat {
-	width: 60%;
 }
