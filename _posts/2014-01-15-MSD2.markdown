@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "MakerSquare Day Two"
+date:   2014-01-15 10:12:03
+categories: jekyll update
+---
+
+Alright! Time for some CSS. But first we talked a lot more about using Git and GitHub. I thought I was understanding it until I came home and talked to Gene about it. Turns out I was missing some key points. I think it will take a while to get used to. I'm starting to see how it's a pretty powerful tool once you can navigate it. 
+
+Kept working on our personal sites. They sure made some leaps and bounds once we started adding CSS. I'm pretty proud of my buttons that change color. I still have a long way to go in terms of layout but it's fun knowing enough to play around with. Not sure if it's good or bad, but Gene's not a lot of help with the CSS. I'm guessing Google will be my best friend over the next 10 weeks.

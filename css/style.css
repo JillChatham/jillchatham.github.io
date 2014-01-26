@@ -26,12 +26,12 @@ a:focus, a:hover {
 /*header*/
 
 #jill {
-	height: 80px;
+	width: 50%;
 	}
 
 .header {
 	/*border: 1px solid black;*/
-	width: 70%;
+	width: 100%;
 	margin: 0 auto;
 	border-bottom: 4px solid #F2A885;
 	border-radius: 10px;
@@ -45,12 +45,6 @@ a:focus, a:hover {
 	clear: both;
 }
 
-.logo {
-	/*border: 1px solid black;*/
-	float: left;
-	width: 500px;
-	margin-top: 20px;
-}
 
 .nav {
 	/*border: 1px solid black;*/
@@ -80,64 +74,30 @@ a:focus, a:hover {
 
 /*footer*/
 
+.contact {
+	font-size: 1em;
+}
+
 .footer {
-	clear:both;
+	border-radius: 10px;
 	border-top: 4px solid #F2A885;
-	width: 70%;
-	margin: 0 auto;
-	height: 50px;
-	line-height: 50px;
-	border-radius: 10px;
 	font-weight: bold;
-	font-size: 1em;
-	padding: 10px;
-
+	font-size: 80%;
+	margin-top: 2em;
+  overflow: hidden;
+  clear: all;
 }
 
-.footerleft {
-	width: 30%;
-	float: left;
-	text-align: center;
-	border-right: 2px solid black;
-	padding-right: 10px;
 
-
+.footer .contact {
+  float: left;
+  margin-right: 3em;
 }
 
-.footerright {
-	width: 30%;
-	float: right;
-	text-align: center;
-	border-left: 2px solid black;
-	padding-left: 10px;
-}
-
-/*index.html*/
-
-.blogpreview {
-	margin-top: 30px;
-	border: 2px solid black;
-	border-radius: 10px;
-	padding: 20px;
-	width: 60%;
-}
-
-.blogpreview p {
-	font-size: 1em;
-}
-
-.blogpreview a {
-	color: black;
-	font-weight: normal;
-}
-
-.blogpreview a:hover {
-	color: #F2A885;
-}
 
 /*about.html*/
 .maincontent {
-	width: 70%;
+	width: 90%;
 	margin: 0 auto;
 	padding: 30px;
 
@@ -159,16 +119,9 @@ a:focus, a:hover {
 
 #cocinera {
 	
-	border-left: 4px solid black;
+	border-left: .25em solid black;
 	border-radius: 10px;
-}
-
-h2 {
-	color: #F2A885;
-}
-
-h3 {
-	color: #F2A885;
+	width: 100%;
 }
 
 .rightcontenttop {
@@ -182,34 +135,39 @@ h3 {
 	width: 70%;
 }
 
-.education {
-		width: 100px;
-		height: 130px;
+.edbuttonsgroup .education {
+		width: 130px;
+		height: 200px;
 		text-align: center;
-		padding: 5px;
-    	border-radius: 10px;
-    	margin-right: 20px;
-    	border: 2px solid black;
-    	font-weight: bold;
-    	font-size: 14px;
-    	display: inline-block;
-    	color: white;
+		/*padding: 5px;*/
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    color: white;
 		background: #F2A885;
+		overflow: hidden;
 		}
 
-
 .edicon {
-	height: 80px;
+	height: 50%;
 }
 
 .edicon2 {
-	height: 100px;
+	height: 50%;
+}
+
+.edicon3 {
+	height: 70%;
 }
 
 .education:hover {
 	color: #F2A885;
 	background: white;
 }
+
 /*contact.html*/
 ul {
 	margin-top: 40px;
@@ -220,8 +178,8 @@ ul {
 
 .blogentry {
 	margin: 0 auto;
-	width: 75%;
-	padding-top: 30px;
+	width: 85%;
+	padding-top: 20px;
 
 }
 

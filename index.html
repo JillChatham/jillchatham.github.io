@@ -1,52 +1,13 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Jill Chatham</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+---
+layout: default
+title: Jill Chatham
+---
 
-<body>
-
-<div class="header">  
-    <div class="logo">
-      <a href="index.html"><img id="jill" src="Jill Chatham.jpg" alt="Jill Chatham Logo"></a>
-    </div>
-    <div class= "nav">
-      <div class="navbutton">
-       <a href="index.html">Home</a>
-      </div>
-
-      <div class="navbutton">
-        <a href="about.html">About</a>
-     </div>
-
-      <div class ="navbutton">
-        <a href="contact.html">Contact</a>
-      </div>
-  
-     <div class ="navbutton">
-       <a href="blog.html">Blog</a>
-      </div>
-    </div>
+<div id="home">
+  <h2>Blog Posts</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><p>{{ post.excerpt }}</p></li>
+    {% endfor %}
+  </ul>
 </div>
-
-<div class="maincontent">
-  <div class="leftcontent">
-    <img id="cocinera" src="skinny jill.jpg" alt="Jill in the kitchen">
-  </div>
-
-  <div class="rightcontenttop">
-      <a href="blog.html"><h3>MakerSquare Day 2</h3></a>
-      <h4 class="blogtitle">Date: January 15, 2014</h4>
-      <p>Alright! Time for some CSS. But first we talked a lot more about using Git and GitHub. I thought I was understanding it until I came home and talked to Gene about it. Turns out I was missing some key points. I think it will take a while to get used to. I'm starting to see how it's a pretty powerful tool once you can navigate it... <a href="blog.html"><em>read more</em></a></p>
-  </div>
-</div>
-
-<div class="footer">
-  <div class="footerleft">jillmchatham@gmail.com</div>
-  <div class="footerright">(360) 770-1040</div>
-</div>
-
-</body>
-</html>

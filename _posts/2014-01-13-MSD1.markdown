@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "MakerSquare Day One"
+date:   2014-01-13 10:12:03
+categories: jekyll update
+---
+
+Our first day of the Part Time Front-end Develpment course at MakerSquare was today.  It's always fun to meet the other students and try to gauge how much we're going to learn by that first day.  As one of the least experienced students, I'm guessing I'm going to learn a lot!  We started coding already, which was pretty exciting.  We're building a simple blog/about me site... what do you think so far?
+
+Besides some basic HTML, we started learning about Git and GitHub, using the terminal and learning some cool time-saving tricks in our text editor. I'm really looking forward to gussying up our sites on Wednesday with some CSS.
